@@ -1,0 +1,181 @@
+deleteall;
+
+# Initial Parameters 
+si = "Si (Silicon) - Palik";
+W = 9e-6; # Y span of the box
+Lpi = 96.638e-6;
+Wwg = 1.43e-6; # Yspan of the port
+z = 0.22e-6; # Z span
+zports = 5e-6; # Z span of EME ports
+portlen = 5e-6;
+portyspan = 1e-6; 
+EME_cells = 150;
+inputport = 1; # Selected input port, counting from the upper to the lower one 
+
+# Creation of MMI Box
+addrect;
+set({
+    "x min"    : 0,
+    "x max"    : Lpi,
+    "y span"   : W,
+    "y"        : 0,
+    "z span"   : z,
+    "z"        : 0,
+    "material" : si,
+    "name"     : "Box"
+      });
+
+#Create EME solver
+
+addeme;
+set("allow custom eigensolver settings",1);
+set("number of cell groups",3);
+
+set({"group spans"         :[4.75e-6; Lpi; 4.75e-6],
+     "cells"               :[10; 1; 10],
+     "subcell method"      :[1; 0; 1], # 0 = none,  1 = CVCS
+     "modes"               :[10; 50; 10],
+     "x"                   :getnamed("Box", "x"),
+     "y"                   :0,
+     "y span"              :W+ 2e-6,
+     "z"                   :0,
+     "z span"              :zports,
+     "y min bc"            :"PML",
+     "y max bc"            :"PML",
+     "z min bc"            :"Symmetric",
+     "z max bc"            :"PML",
+     "background material" :"SiO2 (Glass) - Palik",
+     "mesh cells y"        :EME_cells,
+     "mesh cells z"        :EME_cells,
+     "display cells"       : 0
+    });
+
+
+#Create Input ports 
+i = 0;
+for(i = 1; i <= 2; i=i+1){
+    addobject("linear_taper");
+    set({
+        "name"      : "Port "+ num2str(i),
+        "material"  : si,
+        "first axis": "y",
+        "y"         : W/6*((-1)^(i+1)),
+        "thickness" : 0.22e-6,
+        "rotation 1": 180,
+        "len"       : portlen,
+        "width_l"   : Wwg,
+        "width_r"   : portyspan,
+        "x"         : -portlen/2,
+        "angle_side": 90,
+        "z"         : 0
+        });
+    addtogroup("Input Ports");
+    unselectall;
+    
+    addrect;
+    set({
+        "x min"    : -portlen/2-5e-6,
+        "x max"    : -portlen,
+        "y span"   : portyspan,
+        "y"        : W/6*((-1)^(i+1)),
+        "z span"   : z,
+        "material" : si,
+        "name"     : "Port_rectangle "+ num2str(i),
+        "z"        : 0 
+      });
+     addtogroup("Input Ports");
+     unselectall;   
+}
+
+#Create Output ports 
+j = i-1;
+for(i = 1; i <= 2; i=i+1){
+    addobject("linear_taper");
+    set({
+        "name"      : "Port "+ num2str(i+j),
+        "material"  : si,
+        "first axis": "y",
+        "y"         : W/6*((-1)^(i+1)),
+        "thickness" : 0.22e-6,
+        "len"       : portlen,
+        "width_l"   : Wwg,
+        "width_r"   : portyspan,
+        "x"         : Lpi + portlen/2,
+        "angle_side": 90,
+        "z"         : 0
+        });
+    addtogroup("Output Ports");
+    unselectall;
+    addrect;
+    set({
+        "x min"    : Lpi+portlen,
+        "x max"    : Lpi+portlen+3e-6,
+        "y span"   : portyspan,
+        "y"        : W/6*((-1)^(i+1)),
+        "z span"   : z,
+        "material" : si,
+        "name"     : "Port_rectangle "+ num2str(i+j),
+        "z"        : 0 
+     });
+     addtogroup("Output Ports");
+     unselectall;  
+}  
+
+#EME Ports
+
+select("EME::Ports::port_1");
+set({"use full simulation span" :0,
+    "y span"                    :3.5e-6 ,
+    "y"                         :getnamed("Input Ports::Port 1","y"),
+    "z span"                    :zports,
+    "z"                         :0
+});
+unselectall;   
+
+aux = 3;
+
+for(i=2; i <= 3; i=i+1){
+    if(i==2){
+        select("EME::Ports::port_2");
+        set({"use full simulation span"  :0,
+             "y span"                    :3.5e-6 ,
+             "y"                         :getnamed("Output Ports::Port "+num2str(aux),"y"),
+             "z span"                    :zports,
+             "z"                         :0
+        });
+    unselectall;
+    }
+    else{
+        aux = aux+1;
+        addemeport;
+        set({"use full simulation span"  :0,
+             "y span"                    :3.5e-6 ,
+             "y"                         :getnamed("Output Ports::Port "+num2str(aux),"y"),
+             "z span"                    :zports,
+             "z"                         :0,
+             "port location"         : "right"
+        });
+    unselectall;
+    }
+}
+
+#Create Field Monitor
+
+addemeprofile;
+set({"x"      : getnamed("EME", "x"),
+     "x span" : Lpi+10e-6 + 2e-6,
+     "y span" : getnamed("EME", "y span")+2e-6
+    });
+
+#Create Mesh for the ports
+
+for(i = 1; i <= 4; i = i+1){
+    addmesh;
+    set({"based on a structure": 1,
+     "structure"           : "Port "+num2str(i),
+     "set mesh multiplier" : 1,
+     "x mesh multiplier"   : 4,
+     "y mesh multiplier"   : 4,
+     "z mesh multiplier"   : 4
+     });
+}   
