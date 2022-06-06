@@ -2,12 +2,12 @@ deleteall;
 
 # Initial Parameters 
 si = "core";
-W = 7e-6; # Y span of the box
-Lpi = 58.829e-6;
-Wwg = 1.26e-6; # Yspan of the port
+W = 9e-6; # Y span of the box
+Lpi = 96.3528e-6;
+Wwg = 1.43e-6; # Yspan of the port
 z = 0.22e-6; # Z span
 zports = 5e-6; # Z span of EME ports
-portlen = 5e-6;
+portlen = 7.5e-6;
 portyspan = 0.45e-6; 
 EME_cells = 150;
 inputport = 1; # Selected input port, counting from the upper to the lower one 
@@ -30,9 +30,8 @@ set({
 addeme;
 set("allow custom eigensolver settings",1);
 set("number of cell groups",3);
-
-set({"group spans"         :[4.75e-6; Lpi; 4.75e-6],
-     "cells"               :[10; 1; 10],
+set("group spans",[portlen; Lpi; portlen]);
+set({"cells"               :[10; 1; 10],
      "subcell method"      :[1; 0; 1], # 0 = none,  1 = CVCS
      "modes"               :[10; 50; 10],
      "x"                   :getnamed("Box", "x"),
@@ -163,7 +162,7 @@ for(i=2; i <= 3; i=i+1){
 
 addemeprofile;
 set({"x"      : getnamed("EME", "x"),
-     "x span" : Lpi+10e-6,
+     "x span" : Lpi+2*portlen,
      "y span" : getnamed("EME", "y span")+2e-6
     });
 
