@@ -1,14 +1,14 @@
 deleteall;
 
 # Initial Parameters 
-si = "Si (Silicon) - Palik";
-W = 9e-6; # Y span of the box
-Lpi = 96.638e-6;
-Wwg = 1.43e-6; # Yspan of the port
+si = "core";
+W = 7e-6; # Y span of the box
+Lpi = 58.829e-6;
+Wwg = 1.26e-6; # Yspan of the port
 z = 0.22e-6; # Z span
 zports = 5e-6; # Z span of EME ports
 portlen = 5e-6;
-portyspan = 1e-6; 
+portyspan = 0.45e-6; 
 EME_cells = 150;
 inputport = 1; # Selected input port, counting from the upper to the lower one 
 
@@ -37,7 +37,7 @@ set({"group spans"         :[4.75e-6; Lpi; 4.75e-6],
      "modes"               :[10; 50; 10],
      "x"                   :getnamed("Box", "x"),
      "y"                   :0,
-     "y span"              :W+ 2e-6,
+     "y span"              :W+2e-6,
      "z"                   :0,
      "z span"              :zports,
      "y min bc"            :"PML",
@@ -46,7 +46,7 @@ set({"group spans"         :[4.75e-6; Lpi; 4.75e-6],
      "z max bc"            :"PML",
      "background material" :"SiO2 (Glass) - Palik",
      "mesh cells y"        :EME_cells,
-     "mesh cells z"        :EME_cells,
+     "mesh cells z"        :EME_cells/2,
      "display cells"       : 0
     });
 
@@ -163,7 +163,7 @@ for(i=2; i <= 3; i=i+1){
 
 addemeprofile;
 set({"x"      : getnamed("EME", "x"),
-     "x span" : Lpi+10e-6 + 2e-6,
+     "x span" : Lpi+10e-6,
      "y span" : getnamed("EME", "y span")+2e-6
     });
 
@@ -176,6 +176,6 @@ for(i = 1; i <= 4; i = i+1){
      "set mesh multiplier" : 1,
      "x mesh multiplier"   : 4,
      "y mesh multiplier"   : 4,
-     "z mesh multiplier"   : 4
+     "z mesh multiplier"   : 8
      });
 }   
