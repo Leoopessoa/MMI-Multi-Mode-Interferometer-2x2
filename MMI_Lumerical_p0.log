@@ -1,825 +1,818 @@
-Ansys Lumerical 2022 R1.4 Eigenmode Expansion Solver Version 7.19.3044 (Linux 64bit)
- expires (month/day/year): 5/2/2023
+Ansys Lumerical 2020 R2 Eigenmode Expansion Solver Version 7.16.2387 (Windows 64bit)
+ expires (month/day/year): 12/31/2035
 using config file: Ansys Licensing set with ANSYSLMD_LICENSE_FILE
-license host: 1055@10.75.13.24
-current time: seg jun 6 18:56:52 2022
-Running on host: fotonica02-System-Product-Name
-Running lms file: /opt/lumerical/v221/bin/eme-engine -t 8 -remote -shared-solve-license QU5TWVNDTF9DT05URVhUX0RBVEE9PEFOU1lTQ0xfQ09OVEVYVF9EQVRBPjxJRD42OTFjYzVkYy01YzY5LTQxOWEtYjRjNC05MzJiYzUwOTM5MGI8L0lEPjxUWVBFPkFQUF9ERUZJTkVEPC9UWVBFPjxOQU1FPmx1bV9zdGFuZGFyZF9zb2x2ZV9zaGFyZTwvTkFNRT48SEFORExFUj4zNDQyOUBmb3RvbmljYTAyLVN5c3RlbS1Qcm9kdWN0LU5hbWU8L0hBTkRMRVI+PC9BTlNZU0NMX0NPTlRFWFRfREFUQT4KQU5TWVNfQ09OVEVYVF9JRD02OTFjYzVkYy01YzY5LTQxOWEtYjRjNC05MzJiYzUwOTM5MGIKQU5TWVNfQ09OVEVYVF9TRVJWRVI9MzQ0MjlAZm90b25pY2EwMi1TeXN0ZW0tUHJvZHVjdC1OYW1lCg== /home/leonardo/Downloads/MMI-LeonardoPessôa/MMI-Multi-Mode-Interferometer-2x2/MMi_Lumerical_File.lms
+license host: 
+current time: Tue Jun  7 23:37:44 2022
+Running on host: DESKTOP-CPAG1MV
+Running lms file: C:\Program Files\Lumerical\v202\bin\eme-engine-msmpi.exe -t 4 -remote D:/AAAAAAAArquivos/Facul/Capacitação/GitHub/MMI-Multi-Mode-Interferometer-2x2/MMI_Lumerical.lms
 Running MODE Simulation
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.006491 seconds of CPU time
+Meshing complete in 0 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.003272 seconds of CPU time
+Meshing complete in 0 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.003341 seconds of CPU time
+Meshing complete in 0.015625 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.011667 seconds of CPU time
+Meshing complete in 0 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.013006 seconds of CPU time
+Meshing complete in 0 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.017337 seconds of CPU time
+Meshing complete in 0.0625 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.020116 seconds of CPU time
+Meshing complete in 0.0625 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.019063 seconds of CPU time
+Meshing complete in 0 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.018919 seconds of CPU time
+Meshing complete in 0 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.020321 seconds of CPU time
+Meshing complete in 0.046875 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.018083 seconds of CPU time
+Meshing complete in 0 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.018024 seconds of CPU time
+Meshing complete in 0 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.020341 seconds of CPU time
+Meshing complete in 0.0625 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.019095 seconds of CPU time
+Meshing complete in 0 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.018972 seconds of CPU time
+Meshing complete in 0 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.043137 seconds of CPU time
+Meshing complete in 0.234375 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.032748 seconds of CPU time
+Meshing complete in 0.171875 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.039295 seconds of CPU time
+Meshing complete in 0.171875 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.035521 seconds of CPU time
+Meshing complete in 0.0625 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.029572 seconds of CPU time
+Meshing complete in 0.125 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.035523 seconds of CPU time
+Meshing complete in 0.125 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.036319 seconds of CPU time
+Meshing complete in 0.0625 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.041287 seconds of CPU time
+Meshing complete in 0.125 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.033741 seconds of CPU time
+Meshing complete in 0.171875 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.038678 seconds of CPU time
+Meshing complete in 0.125 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.044014 seconds of CPU time
+Meshing complete in 0.109375 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.043671 seconds of CPU time
+Meshing complete in 0.15625 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.051179 seconds of CPU time
+Meshing complete in 0.171875 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.061408 seconds of CPU time
+Meshing complete in 0.171875 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.050492 seconds of CPU time
+Meshing complete in 0.125 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.049146 seconds of CPU time
+Meshing complete in 0.125 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.054964 seconds of CPU time
+Meshing complete in 0.140625 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.034261 seconds of CPU time
+Meshing complete in 0.0625 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.046671 seconds of CPU time
+Meshing complete in 0.15625 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.033867 seconds of CPU time
+Meshing complete in 0.0625 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.040752 seconds of CPU time
+Meshing complete in 0.15625 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.037352 seconds of CPU time
+Meshing complete in 0.109375 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.048824 seconds of CPU time
+Meshing complete in 0.15625 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.036379 seconds of CPU time
+Meshing complete in 0.171875 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.034617 seconds of CPU time
+Meshing complete in 0.0625 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.036434 seconds of CPU time
+Meshing complete in 0.171875 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.031704 seconds of CPU time
+Meshing complete in 0.0625 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.04089 seconds of CPU time
+Meshing complete in 0.171875 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.028123 seconds of CPU time
+Meshing complete in 0.0625 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.030678 seconds of CPU time
+Meshing complete in 0.0625 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.038001 seconds of CPU time
+Meshing complete in 0.140625 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.044585 seconds of CPU time
+Meshing complete in 0.15625 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.036157 seconds of CPU time
+Meshing complete in 0.171875 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.031918 seconds of CPU time
+Meshing complete in 0.0625 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.035875 seconds of CPU time
+Meshing complete in 0.15625 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.034599 seconds of CPU time
+Meshing complete in 0.0625 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.05407 seconds of CPU time
+Meshing complete in 0.125 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.04057 seconds of CPU time
+Meshing complete in 0.15625 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.049414 seconds of CPU time
+Meshing complete in 0.109375 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.048834 seconds of CPU time
+Meshing complete in 0.140625 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.053579 seconds of CPU time
+Meshing complete in 0.171875 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.044609 seconds of CPU time
+Meshing complete in 0.0625 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.05945 seconds of CPU time
+Meshing complete in 0.09375 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.050734 seconds of CPU time
+Meshing complete in 0.078125 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.054413 seconds of CPU time
+Meshing complete in 0.171875 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.053826 seconds of CPU time
+Meshing complete in 0.15625 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.045765 seconds of CPU time
+Meshing complete in 0.0625 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.047949 seconds of CPU time
+Meshing complete in 0.0625 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.048384 seconds of CPU time
+Meshing complete in 0.078125 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.055628 seconds of CPU time
+Meshing complete in 0.15625 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.042204 seconds of CPU time
+Meshing complete in 0.046875 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.058735 seconds of CPU time
+Meshing complete in 0.171875 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.050005 seconds of CPU time
+Meshing complete in 0.09375 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.052415 seconds of CPU time
+Meshing complete in 0.078125 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.053196 seconds of CPU time
+Meshing complete in 0.09375 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.044091 seconds of CPU time
+Meshing complete in 0.0625 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.046831 seconds of CPU time
+Meshing complete in 0.0625 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.047153 seconds of CPU time
+Meshing complete in 0.109375 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.05458 seconds of CPU time
+Meshing complete in 0.1875 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.040805 seconds of CPU time
+Meshing complete in 0 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.032919 seconds of CPU time
+Meshing complete in 0.109375 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.031695 seconds of CPU time
+Meshing complete in 0 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.031024 seconds of CPU time
+Meshing complete in 0 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.047745 seconds of CPU time
+Meshing complete in 0.0625 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.054016 seconds of CPU time
+Meshing complete in 0.03125 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.041166 seconds of CPU time
+Meshing complete in 0 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.053065 seconds of CPU time
+Meshing complete in 0.09375 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.040608 seconds of CPU time
+Meshing complete in 0.046875 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.034356 seconds of CPU time
+Meshing complete in 0.03125 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.044328 seconds of CPU time
+Meshing complete in 0.140625 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.034222 seconds of CPU time
+Meshing complete in 0.109375 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.041662 seconds of CPU time
+Meshing complete in 0.109375 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.038014 seconds of CPU time
+Meshing complete in 0.0625 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.040748 seconds of CPU time
+Meshing complete in 0.171875 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.030039 seconds of CPU time
+Meshing complete in 0.0625 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.046138 seconds of CPU time
+Meshing complete in 0.171875 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.034345 seconds of CPU time
+Meshing complete in 0.0625 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.036826 seconds of CPU time
+Meshing complete in 0.125 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.046454 seconds of CPU time
+Meshing complete in 0.171875 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.03565 seconds of CPU time
+Meshing complete in 0.0625 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.041737 seconds of CPU time
+Meshing complete in 0.15625 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.037407 seconds of CPU time
+Meshing complete in 0.078125 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.041473 seconds of CPU time
+Meshing complete in 0.15625 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.032459 seconds of CPU time
+Meshing complete in 0.078125 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.034602 seconds of CPU time
+Meshing complete in 0.15625 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.035096 seconds of CPU time
+Meshing complete in 0.15625 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.038716 seconds of CPU time
+Meshing complete in 0.0625 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.030885 seconds of CPU time
+Meshing complete in 0.109375 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.041305 seconds of CPU time
+Meshing complete in 0.140625 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.029979 seconds of CPU time
+Meshing complete in 0.09375 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.038973 seconds of CPU time
+Meshing complete in 0.125 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.045416 seconds of CPU time
+Meshing complete in 0.21875 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.034845 seconds of CPU time
+Meshing complete in 0.109375 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.044243 seconds of CPU time
+Meshing complete in 0.140625 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.037118 seconds of CPU time
+Meshing complete in 0.140625 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.038267 seconds of CPU time
+Meshing complete in 0.171875 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.035323 seconds of CPU time
+Meshing complete in 0.171875 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.042561 seconds of CPU time
+Meshing complete in 0.140625 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.033636 seconds of CPU time
+Meshing complete in 0.125 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.043507 seconds of CPU time
+Meshing complete in 0.15625 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.048952 seconds of CPU time
+Meshing complete in 0.15625 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.037505 seconds of CPU time
+Meshing complete in 0.109375 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.048909 seconds of CPU time
+Meshing complete in 0.171875 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.035591 seconds of CPU time
+Meshing complete in 0.171875 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.040139 seconds of CPU time
+Meshing complete in 0.140625 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.03569 seconds of CPU time
+Meshing complete in 0.171875 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.041301 seconds of CPU time
+Meshing complete in 0.171875 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.042612 seconds of CPU time
+Meshing complete in 0.171875 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.0472 seconds of CPU time
+Meshing complete in 0.171875 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.053372 seconds of CPU time
+Meshing complete in 0.171875 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.050936 seconds of CPU time
+Meshing complete in 0.0625 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.062563 seconds of CPU time
+Meshing complete in 0.171875 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.052938 seconds of CPU time
+Meshing complete in 0.171875 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.056027 seconds of CPU time
+Meshing complete in 0.15625 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.052804 seconds of CPU time
+Meshing complete in 0.140625 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.059421 seconds of CPU time
+Meshing complete in 0.171875 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.048354 seconds of CPU time
+Meshing complete in 0.0625 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.05844 seconds of CPU time
+Meshing complete in 0.171875 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.049122 seconds of CPU time
+Meshing complete in 0.0625 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.054375 seconds of CPU time
+Meshing complete in 0.125 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.063832 seconds of CPU time
+Meshing complete in 0.203125 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.055094 seconds of CPU time
+Meshing complete in 0.0625 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.057341 seconds of CPU time
+Meshing complete in 0.171875 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.031001 seconds of CPU time
+Meshing complete in 0 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.030047 seconds of CPU time
+Meshing complete in 0 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.025174 seconds of CPU time
+Meshing complete in 0 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.024275 seconds of CPU time
+Meshing complete in 0 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.022919 seconds of CPU time
+Meshing complete in 0 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.023698 seconds of CPU time
+Meshing complete in 0.109375 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.024447 seconds of CPU time
+Meshing complete in 0.0625 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.022742 seconds of CPU time
+Meshing complete in 0 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.023902 seconds of CPU time
+Meshing complete in 0 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.029651 seconds of CPU time
+Meshing complete in 0 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.029084 seconds of CPU time
+Meshing complete in 0.0625 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.034401 seconds of CPU time
+Meshing complete in 0 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.031003 seconds of CPU time
+Meshing complete in 0.078125 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.029696 seconds of CPU time
+Meshing complete in 0 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 303 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.029572 seconds of CPU time
-Time to calculate modes :  319.666
-Time to normalize fields and orthogonalize degenerate modes :  5.58207
+Meshing complete in 0 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 98 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.001941 seconds of CPU time
+Meshing complete in 0 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 98 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.001827 seconds of CPU time
+Meshing complete in 0 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 98 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.001846 seconds of CPU time
+Meshing complete in 0.015625 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 98 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.002073 seconds of CPU time
+Meshing complete in 0 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 98 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.001905 seconds of CPU time
+Meshing complete in 0 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 98 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.001785 seconds of CPU time
+Meshing complete in 0 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 98 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.002045 seconds of CPU time
+Meshing complete in 0 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 98 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.001938 seconds of CPU time
+Meshing complete in 0 seconds of CPU time
 Starting meshing
 Simulation size in gridpoints: 1 x 98 x 68
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.001916 seconds of CPU time
-Time to calculate overlaps : 27.5297
-Overall wall time measurements in seconds : 352.779
-Simulation completed successfully at: seg jun 6 19:02:46 2022
-Overall EME run time, measurements in seconds: 355.328
-Total number of processes used by EME simulation : 1
+Meshing complete in 0 seconds of CPU time
